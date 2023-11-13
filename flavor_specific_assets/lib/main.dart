@@ -28,7 +28,7 @@ class MainApp extends StatelessWidget {
                           Theme.of(context).textTheme.headlineMedium!.copyWith(
                                 fontFamily: 'monaco',
                                 fontFamilyFallback: ['consolas', 'courier new'],
-                                backgroundColor: Color.fromRGBO(0, 0, 0, 0.1),
+                                backgroundColor: const Color.fromRGBO(0, 0, 0, 0.1),
                               ),
                     ),
                     TextSpan(
@@ -37,7 +37,7 @@ class MainApp extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Text(
                 'Assets',
                 style: Theme.of(context).textTheme.headlineMedium,

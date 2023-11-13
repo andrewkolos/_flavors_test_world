@@ -59,13 +59,27 @@ android {
         }
     }
 
-    flavorDimensions "default"
+    flavorDimensions "mode", "api"
 
     productFlavors {
         free {
-            dimension "default"
-            resValue "string", "app_name", "free flavor example"
+            dimension "mode"
             applicationIdSuffix ".free"
+        }
+
+        premium {
+            dimension "mode"
+            applicationIdSuffix ".premium"
+        }
+
+        minApi23 {
+            dimension "api"
+            versionNameSuffix "-minApi23"
+        }
+
+        minApi21 {
+            dimension "api"
+            versionNameSuffix "-minApi21"
         }
     }
 }
