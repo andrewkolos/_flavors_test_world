@@ -20,5 +20,5 @@ flutter:
   assets:
     - assets/
     - path: assets/free/
-      flavor: free
-
+      flavors:
+        - free

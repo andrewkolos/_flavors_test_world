@@ -59,7 +59,7 @@ android {
         }
     }
 
-    flavorDimensions "mode", "api"
+    flavorDimensions "mode"
 
     productFlavors {
         free {
@@ -72,15 +72,6 @@ android {
             applicationIdSuffix ".premium"
         }
 
-        minApi23 {
-            dimension "api"
-            versionNameSuffix "-minApi23"
-        }
-
-        minApi21 {
-            dimension "api"
-            versionNameSuffix "-minApi21"
-        }
     }
 }
 
