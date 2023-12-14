@@ -59,17 +59,17 @@ android {
         }
     }
 
-    flavorDimensions "mode"
+    flavorDimensions "default"
 
     productFlavors {
-        free {
-            dimension "mode"
-            applicationIdSuffix ".free"
+        vanilla {
+            dimension "default"
+            applicationIdSuffix ".vanilla"
         }
 
-        premium {
-            dimension "mode"
-            applicationIdSuffix ".premium"
+        strawberry {
+            dimension "default"
+            applicationIdSuffix ".strawberry"
         }
 
     }

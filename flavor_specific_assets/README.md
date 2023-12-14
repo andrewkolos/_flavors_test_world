@@ -7,7 +7,4 @@ from your local flutter installation.
 This project is configured with flavors (see [Create flavors of a Flutter app](https://docs.flutter.dev/deployment/flavors)).
 When using `flutter run` or `flutter build` provide `--flavor` to choose which flavor to build with.
 
-For Android builds, multidimensional flavors are utilized. Valid `--flavors` include `freeMinApi21`, `freeMinApi23`,
- `premiumMinApi21`, and `premiumMinApi23`.
-
-For iOS builds, `--flavor="free"` can be used.
+See a list of available flavors by running a command with a made-up `--flavor` value. For example, you can run `flutter run --flavor invalid`.
