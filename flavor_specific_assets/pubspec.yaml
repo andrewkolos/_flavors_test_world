@@ -21,7 +21,7 @@ flutter:
     - assets/
     - path: assets/vanilla/
       flavors:
-        - free
+        - vanilla
     - path: assets/strawberry/
       flavors:
         - strawberry
